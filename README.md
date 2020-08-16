@@ -13,5 +13,5 @@
 ### Client
 * A machine that tasks can be run on.
 
-### Server
+### Server
 * Manages all jobs and clients, run evaluations, and create task allocations.

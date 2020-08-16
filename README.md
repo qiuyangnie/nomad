@@ -1,6 +1,6 @@
 # nomad
 
-## Allocation
+## Allocation
 * A mapping between a task group in a job and a client node.
 
 ## Evaluation

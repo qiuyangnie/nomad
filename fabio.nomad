@@ -17,8 +17,13 @@ job "fabio" {
         destination = "local/fabio"
         mode        = "file"
       }
+
+      # fabio is going to detect that consul is running on my system
     }
 
   }
 
 }
+
+# Go to fabio, hit the port 9999 (non-admin interface) to route my applications
+# 127.0.0.1:9999/http-echo

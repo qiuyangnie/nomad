@@ -23,6 +23,7 @@ job "http-echo-dynamic-service" {
         }
       }
 
+      # service stanza: register it in consul
       service {
         name = "http-echo"
         port = "http"
